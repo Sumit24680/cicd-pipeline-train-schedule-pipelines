@@ -5,7 +5,7 @@ pipeline
   {
     stage ("The only stage")
     {
-      step
+      steps
       {
         echo "Running the step"
         sh './gradlew build --no-daemon'
